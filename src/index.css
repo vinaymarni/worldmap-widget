@@ -40,7 +40,15 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+ 
+  margin-top: 30px;
+
+  
+
+  width: 1195px;
+  height: 470.21px;
+  left: 170px;
+  top: 171px;
 }
 
 .widgets-container{
@@ -87,6 +95,9 @@ svg {
   left: 1231px;
   top: 136px;
 }
+.search:hover{
+  box-shadow: 0 0 5px #9299B8;
+}
 
 .settings-icon{
   left: 96.46px;
@@ -98,6 +109,11 @@ svg {
   width: 20px;
   margin-top: 8px;
   margin-left: 15px;
+  cursor: pointer;
+}
+.settings-icon:hover{
+  box-shadow: 0 0 5px #9299B8;
+  border-radius: 10px;
 }
 
 .drop-list{
@@ -149,20 +165,28 @@ svg {
   border: 0;
   width: 94px;
   height: 27px;
- 
+  cursor: pointer;
 }
 
-.off-btn{
+.reports-btn{
   background-color: #010101;
   opacity: 0.7;
   
 }
 
-.on-btn{
+.latest-btn{
   background-color: #1F1B24;
   
 }
 
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px #9299B8;
+ 
+}
 
 
 
